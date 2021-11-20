@@ -6,11 +6,15 @@ defineProps({
 })
 
 const count = ref(0)
+
 function greeter(person:string) {
     return "Hello, " + person;
 }
+
 let person = greeter('afd');
-// const count = 0
+
+// const count = 0 
+
 </script>
 
 <template>
