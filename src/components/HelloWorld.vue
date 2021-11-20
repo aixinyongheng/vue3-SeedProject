@@ -28,7 +28,7 @@ let person = greeter('afd');
   </p>
 
   <p>
-    <a href="https://vitejs.dev/guide/features.html" target="_blank">
+    <a href="https://vitejs.dev/guide/features.html" target="_blank"> 
       Vite Documentation
     </a>
     |
@@ -46,4 +46,5 @@ let person = greeter('afd');
 a {
   color: #42b983;
 }
+
 </style>
