@@ -18,6 +18,7 @@ let person = greeter('afd');
 </script>
 
 <template>
+  <img alt="Vue logo" src="../assets/logo.png" />
   <h1>{{ msg }} {{person}}</h1>
 
   <p>
