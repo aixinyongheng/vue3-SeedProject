@@ -5,9 +5,9 @@ import { createRouter, createWebHashHistory, RouteRecordRaw } from 'vue-router'
 // import Home  from  '../views/map/Home.vue' // 普通import同步加载用法
 
 
-const Home  = () => import('../views/Home.vue'); // 首页
+const Home  = () => import('@/views/Home.vue'); // 首页
 // const mapboxMap = resolve => require(['../components/HelloWorld.vue'], resolve)  // 测试地图组件路由
-const mapboxMap  = () => import('../components/map/mapboxMap.vue'); // 首页
+const mapboxMap  = () => import('@/components/map/mapboxMap.vue'); // 首页
 
 
 
