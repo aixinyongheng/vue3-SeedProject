@@ -5,9 +5,10 @@
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview",
-    "commit":"git add . && git cz"
+    "commit": "git add . && git cz"
   },
   "dependencies": {
+    "axios": "^0.24.0",
     "vue": "^3.2.16",
     "vue-router": "^4.0.12"
   },
